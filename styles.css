@@ -38,6 +38,10 @@ a {
     font-size: 1.1rem;
     margin-left: .5rem;
 }
+.icon:hover {
+    color: #e05d89;
+    cursor: pointer;
+}
 
 .text-js {
     color: #ffffff;
@@ -45,9 +49,9 @@ a {
     font-size: 1rem;
     padding: .2rem 2rem;
     text-align: center;
-    transition: ease-in 5s;
+    transition: ease-in 7s;
     -webkit-transform: translateY(-100%);
-    -webkit-animation: my-animation 3s linear infinite;
+    -webkit-animation: my-animation 7s linear infinite;
 }
 
 .header {
@@ -141,9 +145,9 @@ nav ul a:hover {
 section {
     height: 600px;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
     align-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .button {
@@ -154,6 +158,8 @@ section {
     background-color: #F1DEE4;
     padding: 2rem 1rem;
     border: 2px solid #080808;
+    margin: 1rem;
+    text-align: center;
 }
 .button::after {
     background-color: #e05d89;
@@ -162,10 +168,13 @@ section {
 }
 
 .button::before {
-    background-color: #e05d89;
     position:absolute;
     left: 15px;
     top: 100px;
+}
+
+.button:hover {
+    background-color: #e05d89;
 }
 
 
