@@ -14,7 +14,7 @@ function change(text, text1, text2) {
 
 setInterval(() => {
     change(text, text1, text2)
-},7100)
+},7200)
 
 
 

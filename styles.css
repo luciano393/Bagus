@@ -50,7 +50,6 @@ a {
     padding: .2rem 2rem;
     text-align: center;
     transition: ease-in 7s;
-    -webkit-transform: translateY(-100%);
     -webkit-animation: my-animation 7s linear infinite;
 }
 
