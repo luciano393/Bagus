@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.content-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #080808 ;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+.social{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 19rem;
+    padding: .8rem 2rem;
+}
+.icon{
+    font-size: 1.1rem;
+    margin-left: .5rem;
+}
+
+.text-js {
+    color: #ffffff;
+    width: 25rem;
+    font-size: 1rem;
+    padding: .2rem 2rem;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.header .header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header .header-title .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #151515  ;
+    letter-spacing: 1rem;
+}
+.header .header-title .subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #151515  ;
+    letter-spacing: .3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    color: #444444;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-bottom: 2px solid #ffffff;
+}
+nav ul a:hover {
+    color: #e05d89;
+    border-bottom: 2px solid #e05d89;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E9E3E2;
+}
+.beneficios li {
+    list-style: none;
+    text-align: center;
+    padding: 1rem 6rem; 
+    margin: .4rem 0;
+}
+
+.beneficios li h2 {
+    font-size: 1rem;
+    color: #444444;
+}
+.beneficios li h4 {
+    font-size: .7rem;
+    color: #666666;
+}
+
+.border-right {
+    border-right: 1px solid #C1C1C1;
+}
+.border-left {
+    border-left: 1px solid #C1C1C1;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+
+
+
