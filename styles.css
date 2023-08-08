@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&display=swap');
 
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(140%); }
+    to { -webkit-transform: translateY(-10%); }
+}
+  
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +45,9 @@ a {
     font-size: 1rem;
     padding: .2rem 2rem;
     text-align: center;
+    transition: ease-in 5s;
+    -webkit-transform: translateY(-100%);
+    -webkit-animation: my-animation 3s linear infinite;
 }
 
 .header {
@@ -133,6 +141,31 @@ nav ul a:hover {
 section {
     height: 600px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    color: #080808;
+    font-weight: 900;
+    font-size: 3.5rem;
+    background-color: #F1DEE4;
+    padding: 2rem 1rem;
+    border: 2px solid #080808;
+}
+.button::after {
+    background-color: #e05d89;
+    position: absolute;
+    left: 15px;
+}
+
+.button::before {
+    background-color: #e05d89;
+    position:absolute;
+    left: 15px;
+    top: 100px;
 }
 
 
